@@ -112,7 +112,7 @@ void vectorRemove(Vector *vector, int index) {
 }
 
 
-
+// Change to return type int
 void storeWordsFromFile(String filename, Vector *pVector)
 {
 	FILE *file;
