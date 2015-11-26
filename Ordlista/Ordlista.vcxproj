@@ -64,7 +64,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="genlib.c" />
     <ClCompile Include="Ordlista.c" />
+    <ClCompile Include="random.c" />
+    <ClCompile Include="simpio.c" />
+    <ClCompile Include="strlib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="genlib.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="simpio.h" />
+    <ClInclude Include="strlib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

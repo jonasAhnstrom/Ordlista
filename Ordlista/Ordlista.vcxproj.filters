@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Librarys">
+      <UniqueIdentifier>{046b41c6-2c0a-49fa-92ab-11f995f21026}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ordlista.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="genlib.c">
+      <Filter>Source Files\Librarys</Filter>
+    </ClCompile>
+    <ClCompile Include="random.c">
+      <Filter>Source Files\Librarys</Filter>
+    </ClCompile>
+    <ClCompile Include="simpio.c">
+      <Filter>Source Files\Librarys</Filter>
+    </ClCompile>
+    <ClCompile Include="strlib.c">
+      <Filter>Source Files\Librarys</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="genlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
