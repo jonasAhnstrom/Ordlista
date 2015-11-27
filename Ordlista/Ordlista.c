@@ -15,10 +15,6 @@
 #define MAX_WORD_LENGTH 100
 // #define DEBUG_ON
 
-typedef struct{
-	String word;
-	int length;
-} Word;
 
 typedef struct{
 	int size;		// slots used so far
@@ -200,7 +196,7 @@ int deleteWord(int index, Vector *pVector) {
 	return 1;
 }
 
-// Antagligen onödig, bättre och köra deleteWord() i en loop
+// Antagligen onÃ¶dig, bÃ¤ttre och kÃ¶ra deleteWord() i en loop
 void deleteManyWords(int index, int numWords, Vector *pVector) {
 	for (int i = index; i < (index + numWords); i++)
 	{
@@ -405,7 +401,7 @@ int main()
 
 	//deleteWord(86, &vector);
 	//deleteManyWords(findPosForWord("Allrum", &vector), 10, &vector);
-	//deleteWord(findPosForWord("Hjälpsam", &vector), &vector);
+	//deleteWord(findPosForWord("HjÃ¤lpsam", &vector), &vector);
 
 	int check = 1;
 	while (check)
