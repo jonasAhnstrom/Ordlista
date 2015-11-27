@@ -79,16 +79,14 @@ void vectorAppend(Vector *pVector, void **value, int sizeOfElem) {
 	pVector->size++;
 }
 
-void vectorSet(Vector *pVector, int index, void **value, int sizeOfElem) {
+void vectorSet(Vector *pVector, int index, void **value) {
 
 	if (index >= pVector->size || index < 0) {
 		printf("'vectorSet' - Index %d is out of bounds for vector of size %d\n", index, pVector->size);
 		//exit(1);
 	}
 	// Set the value at the desired index
-	void* ptr = malloc(sizeOfElem);
-	memmove(ptr, value, sizeOfElem);
-	pVector->data[index] = ptr;
+	pVector->data[index] = value;
 }
 
 void *vectorGet(Vector *pVector, int index) {
@@ -231,7 +229,7 @@ int editWord(int index, Vector *pVector)
 {
 	Vector *wordToEdit = vectorGet(pVector, index);
 
-	String word;
+	String word = GetBlock(MAX_WORD_LENGTH);
 	printf("The word you are about to edit: %s.\n", *(wordToEdit->data));
 	printf("\tDO IT,JUST DO IT!\nDont let your dreams be dreams, edit %s now: ",*(wordToEdit->data)); //for the lol's. 
 	scanf("%s", word);
