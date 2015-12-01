@@ -18,9 +18,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ordlista.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="genlib.c">
       <Filter>Source Files\Librarys</Filter>
     </ClCompile>
@@ -32,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="strlib.c">
       <Filter>Source Files\Librarys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Documents\SourceTree\Ordlista\ordlista.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

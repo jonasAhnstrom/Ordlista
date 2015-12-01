@@ -64,8 +64,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Documents\SourceTree\Ordlista\ordlista.c" />
     <ClCompile Include="genlib.c" />
-    <ClCompile Include="Ordlista.c" />
     <ClCompile Include="random.c" />
     <ClCompile Include="simpio.c" />
     <ClCompile Include="strlib.c" />
